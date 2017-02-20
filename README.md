@@ -37,4 +37,4 @@ Now you can run the tests, you just need execute: </br>
 * protractor config.js --suite login
 
 In config.js file we have our suites, it facilites when you have many features for testing, so we use "--suite [suite_name]"
-for specify what suite you want execute. </br>
+for specify what suite you want to execute. </br>
