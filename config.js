@@ -2,5 +2,8 @@
 exports.config = {
   framework: 'jasmine',
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['spec.js'],
+  suites: {
+    login: './tests/login.js',
+  },
+  //specs: ['./tests/login.js'],
 }
