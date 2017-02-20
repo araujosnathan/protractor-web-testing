@@ -36,5 +36,5 @@ First, you need up the selenium server </br>
 Now you can run the tests, you just need execute: </br>
 * protractor config.js --suite login
 
-In config.js file we have our suites, it facilites when you have many features for testing, so we use "--suite <suite_name>"
+In config.js file we have our suites, it facilites when you have many features for testing, so we use "--suite [suite_name]"
 for specify what suite you want execute. </br>
