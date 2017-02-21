@@ -13,6 +13,7 @@ Do you have node/npm installed on your PC? if not, you can download in this link
 
 * git clone https://github.com/nathsilv/protractor-web-testing.git </br>
 * npm install -g protractor
+* npm install jasmine-spec-reporter
 * webdriver-manager update
 
 Now you have this project on your PC and all you need installed.</br>
