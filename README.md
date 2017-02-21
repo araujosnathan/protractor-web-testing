@@ -28,6 +28,10 @@ You can put all page objects in this folder: pages
 
 Here, we have all tests! In this project i am testing the LinkedIn website, specifically login feature! </br>
 
+# config.js
+
+In this file we have all config that we will need for our test. This file has configs about browser, params, reporter, and execution. You can put in this file all config that you thing it is necessary.
+
 # How to run the tests?
 
 First, you need up the selenium server </br>
