@@ -6,6 +6,16 @@ exports.config = {
     login: './tests/login.js',
   },
 
+  onPrepare: function(){
+    let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
+
+    jasmine.getEnv().addReporter(new SpecReporter({
+        displayFailuresSummary: true,
+        displayFailedSpec: true,
+        displaySuiteNumber: true,
+        displaySpecDuration: true
+    }));
+  }
   // Choose browser for executing the tests
   // capabilities: {
   //   'browserName': 'firefox'
@@ -19,4 +29,6 @@ exports.config = {
   // }]
 
   //specs: ['./tests/login.js'],
+
+
 }
