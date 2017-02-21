@@ -55,5 +55,5 @@ For exemple in configs file: </br>
    }</pre></code> 
 
 You can change that, like:</br>
-* protractor config.js --suite login --params.valid_linkedin_account.username=new_username </br>
+* protractor config.js --suite login --params.valid_linkedin_account.username=new_username </br></br>
 Then, all tests will run with new params that you changed!
