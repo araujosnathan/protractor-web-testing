@@ -48,11 +48,11 @@ You can change params values of the config file in the moment that you execute t
 * protractor config.js --suite login --params.[your_param].[your_field]=[value]
 For exemple in configs file: </br>
 
-<code>params: {
+<pre><code>params: {
    valid_linkedin_account: {
      'username': 'valid_user@gmail.com',
      'password': 'valid_pass'
-   }</code> 
+   }</pre></code> 
 
 You can change that, like:
 * protractor config.js --suite login --params.valid_linkedin_account.username=new_username </br>
