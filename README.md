@@ -52,6 +52,7 @@ For exemple in configs file: </br>
      'username': 'valid_user@gmail.com',
      'password': 'valid_pass'
    } 
+</br>
 You can change that, like:
 * protractor config.js --suite login --params.valid_linkedin_account.username=new_username
 Then, all tests will run with new params that you changed!
