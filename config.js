@@ -6,6 +6,19 @@ exports.config = {
     login: './tests/login.js',
   },
 
+  // It is great for credentials that you can be to use on your project
+  params: {
+    valid_linkedin_account: {
+      'username': 'valid_user@gmail.com',
+      'password': 'valid_pass'
+    },
+
+    invalid_linkedin_account: {
+      'username': 'invalid_user@gmail.com',
+      'password': 'invalid_pass'
+    },
+
+  },
   //This 'onPrepare' does a reporter about your test execution using jasmine reporter
   onPrepare: function(){
     let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
@@ -16,7 +29,7 @@ exports.config = {
         displaySuiteNumber: true,
         displaySpecDuration: true
     }));
-  }
+  },
   // Choose browser for executing the tests
   // capabilities: {
   //   'browserName': 'firefox'
