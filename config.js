@@ -6,6 +6,7 @@ exports.config = {
     login: './tests/login.js',
   },
 
+  //This 'onPrepare' does a reporter about your test execution using jasmine reporter
   onPrepare: function(){
     let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 
