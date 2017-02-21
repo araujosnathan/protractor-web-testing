@@ -47,12 +47,13 @@ for specify what suite you want to execute. </br>
 You can change params values of the config file in the moment that you execute the tests, like:</br>
 * protractor config.js --suite login --params.[your_param].[your_field]=[value]
 For exemple in configs file: </br>
-<pre><code>params: {
+
+<code>params: {
    valid_linkedin_account: {
      'username': 'valid_user@gmail.com',
      'password': 'valid_pass'
-   } 
+   }</code> 
 
-# You can change that, like:
-* protractor config.js --suite login --params.valid_linkedin_account.username=new_username
+You can change that, like:
+* protractor config.js --suite login --params.valid_linkedin_account.username=new_username </br>
 Then, all tests will run with new params that you changed!
