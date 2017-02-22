@@ -49,15 +49,7 @@ exports.config = {
           jsonFile: 'results.json',
           output: 'cucumber_report.html',
           reportSuiteAsScenarios: true,
-          launchReport: true,
-          metadata: {
-              "App Version":"0.0.1",
-              "Test Environment": "STAGING",
-              "Browser": "Chrome  54.0.2840.98",
-              "Platform": "OSX",
-              "Parallel": "Scenarios",
-              "Executed": "Remote"
-          }
+          launchReport: true
       };
 
       reporter.generate(options);
