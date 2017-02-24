@@ -50,12 +50,13 @@ You can change params values of the config file in the moment that you execute t
 * protractor config.js --params.[your_param].[your_field]=[value] </br>
 For exemple in configs file: </br>
 
-<pre><code>params: {
+```
+params: {
    valid_linkedin_account: {
      'username': 'valid_user@gmail.com',
      'password': 'valid_pass'
-   }</pre></code>
-
+     }
+```
 You can change that, like:</br>
 * protractor config.js --params.valid_linkedin_account.username=new_username </br></br>
 Then, all tests will run with new params that you changed!
